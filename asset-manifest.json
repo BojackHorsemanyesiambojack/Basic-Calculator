@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Basic-Calculator/static/css/main.9fa15233.css",
+    "main.js": "/Basic-Calculator/static/js/main.b9fb8de6.js",
+    "static/media/Vault-boy.png": "/Basic-Calculator/static/media/Vault-boy.92eb94c87e31dcd03f86.png",
+    "index.html": "/Basic-Calculator/index.html",
+    "main.9fa15233.css.map": "/Basic-Calculator/static/css/main.9fa15233.css.map",
+    "main.b9fb8de6.js.map": "/Basic-Calculator/static/js/main.b9fb8de6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9fa15233.css",
+    "static/js/main.b9fb8de6.js"
+  ]
+}
