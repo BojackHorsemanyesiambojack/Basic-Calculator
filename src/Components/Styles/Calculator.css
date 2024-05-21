@@ -1,0 +1,11 @@
+.calculator{
+    background-color: rgba(42, 78, 22, 0.274);
+    color:rgb(32, 206, 32);
+}
+
+.input-cont{
+    display: flex;
+    padding: 2px;
+    padding: 5px;
+    text-align: center;
+}

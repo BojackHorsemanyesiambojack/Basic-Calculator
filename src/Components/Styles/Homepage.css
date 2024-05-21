@@ -1,0 +1,16 @@
+.homepage{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.calculator-cont{
+    width: 30%;;
+}
+
+@media (max-width:800px) {
+    .calculator-cont{
+        width: 60%;
+    }
+}
