@@ -26,9 +26,9 @@ function Calculator() {
     }
 
   return (
-    <div className='calculator col cent s-p rad-b-s bord-green'> 
+    <div className='calculator col cent s-p rad-b-s bord-green' translate='no'> 
         <div className='input-cont s-p bg-black bord-green rad-b-s separate-b size-b col cent bold just-c' id='display'>
-        <p>{input.length >= 12? <h5 className='adv'>Err</h5> : null}{input}</p>
+        {input.length >= 12? <h5 className='adv'>Err</h5> : null}{input}
         </div>
         <div className='col s-gap'>
         <div className='row cent s-gap'>
