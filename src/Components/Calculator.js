@@ -15,7 +15,7 @@ function Calculator() {
     }
 
     const clearInput = () => {
-        setInput("");
+        setInput('');
     }
 
     const calculateInput = () => {
@@ -27,36 +27,36 @@ function Calculator() {
 
   return (
     <div className='calculator col cent s-p rad-b-s bord-green'> 
-        <div className='input-cont s-p bg-black bord-green rad-b-s separate-b size-b col cent bold just-c'>
-        {input.length >= 12? <h5 className='adv'>Err</h5> : null}{input}
+        <div className='input-cont s-p bg-black bord-green rad-b-s separate-b size-b col cent bold just-c' id='display'>
+        <p>{input.length >= 12? <h5 className='adv'>Err</h5> : null}{input}</p>
         </div>
         <div className='col s-gap'>
         <div className='row cent s-gap'>
-        <Button onClick = {alterInput} needPropsChild = {true}>1</Button>
-        <Button onClick = {alterInput} needPropsChild = {true}>2</Button>
-        <Button onClick = {alterInput} needPropsChild = {true}>3</Button>
-        <Button onClick = {alterInput} needPropsChild = {true}>+</Button>
+        <Button onClick = {alterInput} needPropsChild = {true} id = "one">1</Button>
+        <Button onClick = {alterInput} needPropsChild = {true} id = "two">2</Button>
+        <Button onClick = {alterInput} needPropsChild = {true} id = "three">3</Button>
+        <Button onClick = {alterInput} needPropsChild = {true} id = "add">+</Button>
         </div>
         <div className='row cent s-gap'>
-        <Button onClick = {alterInput} needPropsChild = {true}>4</Button>
-        <Button onClick = {alterInput} needPropsChild = {true}>5</Button>
-        <Button onClick = {alterInput} needPropsChild = {true}>6</Button>
-        <Button onClick = {alterInput} needPropsChild = {true}>-</Button>
+        <Button onClick = {alterInput} needPropsChild = {true} id = "four">4</Button>
+        <Button onClick = {alterInput} needPropsChild = {true} id = "five">5</Button>
+        <Button onClick = {alterInput} needPropsChild = {true} id = "six">6</Button>
+        <Button onClick = {alterInput} needPropsChild = {true} id = "subtract">-</Button>
         </div>
         <div className='row cent s-gap'>
-        <Button onClick = {alterInput} needPropsChild = {true}>7</Button>
-        <Button onClick = {alterInput} needPropsChild = {true}>8</Button>
-        <Button onClick = {alterInput} needPropsChild = {true}>9</Button>
-        <Button onClick = {alterInput} needPropsChild = {true}>*</Button>
+        <Button onClick = {alterInput} needPropsChild = {true} id = "seven">7</Button>
+        <Button onClick = {alterInput} needPropsChild = {true} id = "eight">8</Button>
+        <Button onClick = {alterInput} needPropsChild = {true} id = "nine">9</Button>
+        <Button onClick = {alterInput} needPropsChild = {true} id = "multiply">*</Button>
         </div>
         <div className='row cent s-gap'>
-        <Button onClick = {alterInput}>.</Button>
-        <Button onClick = {alterInput}>0</Button>
-        <Button onClick = {calculateInput}>=</Button>
-        <Button onClick = {alterInput}>/</Button>
+        <Button onClick = {alterInput} id = "decimal">.</Button>
+        <Button onClick = {alterInput} id = "zero">0</Button>
+        <Button onClick = {calculateInput} id = "equals">=</Button>
+        <Button onClick = {alterInput} id = "divide">/</Button>
         </div>
         <div className='row cent just-c'>
-        <Button onClick = {clearInput}>Clear</Button>
+        <Button onClick = {clearInput} id = "clear">Clear</Button>
         </div>
     </div>
     </div>

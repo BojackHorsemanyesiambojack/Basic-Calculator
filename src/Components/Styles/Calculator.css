@@ -4,8 +4,8 @@
 }
 
 .input-cont{
-    display: flex;
-    padding: 2px;
+    display: content;
     padding: 5px;
     text-align: center;
+    background-color: black;
 }
