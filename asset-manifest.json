@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Basic-Calculator/static/css/main.93b9e6de.css",
-    "main.js": "/Basic-Calculator/static/js/main.36c534b4.js",
+    "main.js": "/Basic-Calculator/static/js/main.a0e7a5b0.js",
     "static/media/Vault-boy.png": "/Basic-Calculator/static/media/Vault-boy.92eb94c87e31dcd03f86.png",
     "index.html": "/Basic-Calculator/index.html",
     "main.93b9e6de.css.map": "/Basic-Calculator/static/css/main.93b9e6de.css.map",
-    "main.36c534b4.js.map": "/Basic-Calculator/static/js/main.36c534b4.js.map"
+    "main.a0e7a5b0.js.map": "/Basic-Calculator/static/js/main.a0e7a5b0.js.map"
   },
   "entrypoints": [
     "static/css/main.93b9e6de.css",
-    "static/js/main.36c534b4.js"
+    "static/js/main.a0e7a5b0.js"
   ]
 }
